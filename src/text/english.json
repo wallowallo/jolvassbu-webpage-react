@@ -1,0 +1,91 @@
+[   
+    {
+        "frontPage": {
+            "header": "Welcome to Jølvassbu",
+            "headerTitle": "With the river as the nearest neighbor, shoulders can be lowered and the batteries charged. When you're ready for it, you can choose from many activities:",
+            "activitiesList": [
+                "Fishing in one of Europe's best trout rivers - Rent a boat for fishing or sightseeing",
+                "Paddle on Jølstravatnet with kayak, SUP board or canoe",
+                "Experience beautiful nature, in forests and mountains all year round",
+                "Baths in Jølstravatnet.",
+                "Bike along Jølstravatnet"
+            ],
+            "info": "You have every opportunity for an adventurous holiday. With us you get fishing licenses, hunting cards, fishing equipment for sale / rent, long experience with fishing in the watercourse and we gladly share the knowledge with you. Local tour guide / map / top tour book, rental of boats, kayaks, SUP boards and canoe. Walking distance to supermarket, restaurant, beach, playground and marked hiking trails. Cabins with 3 to 9 beds, with and without bath. Place for campers / caravans and tents. Empty Building. Communal building with showers, toilets, kitchen and laundry, free internet. Open from April and September, otherwise by appointment."
+        },
+        "accomodation": {
+            "header": "Accomodation",
+            "links": ["Cabins", "Caravans/camping", "Facilities"],
+            "cabins": [
+                {
+                    "header": "PERSBUA AND ELVESTOVA",
+                    "info": [
+                        {
+                            "text": "The cabins are situated by the river in beautiful surroundings. Livingroom with kitchen area, complete equipment and TV. Both bedrooms are furnished by familybeds. There is no water/WC/shower inside the cabins, please look at the service- building informtion.",
+                            "beds": "Beds: 6",
+                            "bedrooms": "Bedrooms: 2",
+                            "price": "kr. 730.- pr night"
+                        } 
+                    ]
+                },
+                {
+                    "header": "JØLA",
+                    "info": [
+                        {
+                            "text": "Newly renovated cottage with inline water, shower and toilet. Living room and kitchenette with stove, refrigerator, kettle, coffee maker and all necessary equipment, TV. 2 bedrooms equipped with family bunks, duvets and pillows. In addition, 2 persons can stay in the living room. Beautifully located by the river with terrace and outdoor furniture",
+                            "beds": "Beds: 6(8)",
+                            "bedrooms": "Bedrooms: 2",
+                            "price": "kr. 930.- pr night"
+                        } 
+                    ]
+                },
+                {
+                    "header": "SELET",
+                    "info": [
+                        {
+                            "text": "This cabin has two rooms, livingroom, kitchen, complete equipment, one room with familybed and sleepingsofa in the livingroom. The construcktions are the same as the Holsabua, year around 1870, beautiful surroundings by the river Jølstra. There is no water/WC/shower inside the cabin, please look at the servicebuilding information.",
+                            "beds": "Beds: 5",
+                            "bedrooms": "Bedrooms: 1",
+                            "price": "kr. 590.- pr night"
+                        } 
+                    ]
+                },
+                {
+                    "header": "HOLASBUA",
+                    "info": [
+                        {
+                            "text": "Holsabua is built in the year 1850, and the construcktion is old Vestlandsstyle. Rough timber inside and outside pine wainscot. It was updated in 2008 and 2014. Beautiful surroundings by the river. Livingroom/kitchen, complete equipment, fireplace and TV. The bedrooms from 2 till 4 beds. There are no water/WC/shower in the cabin, please look at the servicbuilding information.",
+                            "beds": "Beds: 7/9",
+                            "bedrooms": "Bedrooms: 2/3",
+                            "floors": "Floors 2",
+                            "price": "kr. 800.- pr night"
+                        } 
+                    ]
+                },
+                {
+                    "header": "ØRRETBU",
+                    "info": [
+                        {
+                            "text": "New small half barrel with double bed and small living area.",
+                            "beds": "Beds: 2/3",
+                            "bedrooms": "Bedrooms: 1",
+                            "price": "kr. 450.- pr night"
+                        } 
+                    ]
+                }
+            ],
+            "caravan": {
+                "header": "CARAVAN, CAMPING AND TENT",
+                "info": "Jølvassbu is arranged for campers, caravans and tent. Several electrical and water points, servicebuilding with kitchen, laundry, separate showerrooms/toilets. Emptying for WC/greywater and freshwater in the dayprice",
+                "prices": ["Bike and tent: nkr 120,- 1 pers.", "Tent/MC: nkr. 170,- 1-2 pers.", "Tent/car: nkr. 250,- 1-2 pers.", "Caravan: nkr. 250,- 1-2 pers.", "Pr extra pers. nkr. 40 ,-", "Electricity day nkr.  40,- "]
+            } 
+        },
+        "activities": {
+            "header": "Activities",
+            "links": ["Spring and summer", "Autumn and winter"]
+        },
+        "information": {
+            "header": "Information",
+            "links": ["Jølvassbu news", "Jølster", "Map", "Contact"]
+        }
+    }
+]
