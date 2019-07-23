@@ -8,3 +8,7 @@
 .cabinCard1 {
     margin-left: 0;
 }
+
+svg {
+    vertical-align: -0.6rem;
+}

@@ -17,6 +17,7 @@ const InfoContainer = styled.div `
   height: 75rem;
   background-color: white;
   border-top: 2px solid lightblue;
+  background-image: linear-gradient(lightblue 0%, white 5%);
 `;
 
 export default class FrontPage extends React.Component {

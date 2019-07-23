@@ -19,47 +19,62 @@
                 {
                     "header": "PERSBUA AND ELVESTOVA",
                     "info": {
-                        "text": "The cabins are situated by the river in beautiful surroundings. Livingroom with kitchen area, complete equipment and TV. Both bedrooms are furnished by familybeds. There is no water/WC/shower inside the cabins, please look at the service- building informtion.",
-                        "beds": "Beds: 6",
-                        "bedrooms": "Bedrooms: 2",
-                        "price": "kr. 730.- pr night"
+                        "text": "The cabins are situated by the river in beautiful surroundings. Livingroom with kitchen area, complete equipment. Both bedrooms are furnished by familybeds. No water/WC/shower inside the cabins.",
+                        "beds": "6",
+                        "tv": true,
+                        "shower": false,
+                        "toilet": false,
+                        "bedrooms": "2",
+                        "price": "kr. 730.-"
                     }
                 },
                 {
                     "header": "JØLA",
                     "info": {
-                        "text": "Newly renovated cottage with inline water, shower and toilet. Living room and kitchenette with stove, refrigerator, kettle, coffee maker and all necessary equipment, TV. 2 bedrooms equipped with family bunks, duvets and pillows. In addition, 2 persons can stay in the living room. Beautifully located by the river with terrace and outdoor furniture",
-                        "beds": "Beds: 6(8)",
-                        "bedrooms": "Bedrooms: 2",
-                        "price": "kr. 930.- pr night"
+                        "text": "Newly renovated cottage with inline water, shower and toilet. Living room and kitchen with stove, refrigerator, kettle, coffee maker and all necessary equipment. 2 bedrooms equipped with family bunks, duvets and pillows. In addition, 2 persons can stay in the living room. Beautifully located by the river with terrace and outdoor furniture.",
+                        "beds": "6(8)",
+                        "tv": true,
+                        "shower": true,
+                        "toilet": true,
+                        "bedrooms": " 2",
+                        "price": "kr. 930.-"
                     }
                 },
                 {
                     "header": "SELET",
                     "info": {
-                        "text": "This cabin has two rooms, livingroom, kitchen, complete equipment, one room with familybed and sleepingsofa in the livingroom. The construcktions are the same as the Holsabua, year around 1870, beautiful surroundings by the river Jølstra. There is no water/WC/shower inside the cabin, please look at the servicebuilding information.",
-                        "beds": "Beds: 5",
-                        "bedrooms": "Bedrooms: 1",
-                        "price": "kr. 590.- pr night"
+                        "text": "This cabin has two rooms, livingroom, kitchen, complete equipment, one room with familybed and sleeper sofa in the livingroom. The constructions are the same as the Holsabua, year around 1870, beautiful surroundings by the river Jølstra. No water/WC/shower inside the cabin.",
+                        "beds": "5",
+                        "tv": false,
+                        "shower": false,
+                        "toilet": false,
+                        "bedrooms": "1",
+                        "price": "kr. 590.-"
                     }
                 },
                 {
-                    "header": "HOLASBUA",
+                    "header": "HOLSABUA",
                     "info": {
-                        "text": "Holsabua is built in the year 1850, and the construcktion is old Vestlandsstyle. Rough timber inside and outside pine wainscot. It was updated in 2008 and 2014. Beautiful surroundings by the river. Livingroom/kitchen, complete equipment, fireplace and TV. The bedrooms from 2 till 4 beds. There are no water/WC/shower in the cabin, please look at the servicbuilding information.",
-                        "beds": "Beds: 7/9",
-                        "bedrooms": "Bedrooms: 2/3",
-                        "floors": "Floors 2",
-                        "price": "kr. 800.- pr night"
+                        "text": "Holsabua is built in the year 1850, and the construction is old Vestlands-style. Rough timber inside and outside, pine wainscot. Updated in 2008 and 2014. Beautiful surroundings by the river. Livingroom/kitchen, complete equipment, fireplace. The bedrooms from 2 till 4 beds. No water/WC/shower in the cabin.",
+                        "beds": "7/9",
+                        "tv": true,
+                        "shower": false,
+                        "toilet": false,
+                        "bedrooms": "2/3",
+                        "floors": "Floors: 2",
+                        "price": "kr. 800.-"
                     }
                 },
                 {
                     "header": "ØRRETBU",
                     "info": {
                         "text": "New small half barrel with double bed and small living area.",
-                        "beds": "Beds: 2/3",
-                        "bedrooms": "Bedrooms: 1",
-                        "price": "kr. 450.- pr night"
+                        "beds": "2/3",
+                        "tv": false,
+                        "shower": false,
+                        "toilet": false,
+                        "bedrooms": "1",
+                        "price": "kr. 450.-"
                     }
                 }
             ],
