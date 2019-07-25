@@ -5,7 +5,12 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Appbar from '../navBar/appbar';
 import { Router } from '@reach/router';
 import FrontPage from '../front-page/front-page';
-import CabinCard from '../accommodation/cabin-cards';
+import Footer from '../footer/footer';
+import CabinCard from '../accommodation/cabin/cabin-cards';
+import Caravans from '../accommodation/caravans/caravans';
+import Map from '../information/map/map';
+
+const text = require('../../text/english.json')[0].frontPage;
 
 const HeaderGifContainer = styled.div `
   width: 100%;
@@ -43,13 +48,17 @@ export default class App extends React.Component {
             </HeaderGifContainer>
 
             <TextHeaderContainer>
-                <TextHeader>Welcome to Jølvassbu</TextHeader>
+                <TextHeader>{text.header}</TextHeader>
             </TextHeaderContainer>
 
             <Router>
                 <FrontPage path="/" />
                 <CabinCard path="cabins" />
+                <Caravans path="caravans" />
+                <Map path="map"/>
             </Router>
+            
+            <Footer />
         </React.Fragment>
       );
   }

@@ -6,6 +6,8 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import './front-page.css';
 
+const text = require('../../text/english.json')[0].frontPage;
+
 const SliderContainer = styled.div `
   width: 100%;
 `;
@@ -32,7 +34,11 @@ export default class FrontPage extends React.Component {
                   </SliderContainer>
                 </CardMedia>
                 <CardContent>
-                  <div>asdf</div>
+                  <div>{text.headerTitle}</div>
+                  <ul>
+                    {text.activitiesList.map(activity => <li>{activity}</li>)}
+                  </ul>
+                  <div>{text.info}</div>
                 </CardContent>
               </Card>
             </InfoContainer>

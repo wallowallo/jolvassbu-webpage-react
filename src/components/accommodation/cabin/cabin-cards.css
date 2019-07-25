@@ -1,0 +1,13 @@
+.cabinCardContainer {
+    width: 30%;
+    height: 45%;
+    margin-left: 3rem;
+}
+
+.cabinCard1 {
+    margin-left: 0;
+}
+
+svg {
+    vertical-align: -0.6rem;
+}

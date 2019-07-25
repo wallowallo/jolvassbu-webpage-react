@@ -80,8 +80,10 @@
             ],
             "caravan": {
                 "header": "CARAVAN, CAMPING AND TENT",
-                "info": "Jølvassbu is arranged for campers, caravans and tent. Several electrical and water points, servicebuilding with kitchen, laundry, separate showerrooms/toilets. Emptying for WC/greywater and freshwater in the dayprice",
-                "prices": ["Bike and tent: nkr 120,- 1 pers.", "Tent/MC: nkr. 170,- 1-2 pers.", "Tent/car: nkr. 250,- 1-2 pers.", "Caravan: nkr. 250,- 1-2 pers.", "Pr extra pers. nkr. 40 ,-", "Electricity day nkr.  40,- "]
+                "info": "Jølvassbu is arranged for campers, caravans and tent. Several electrical and water points, servicebuilding with kitchen, laundry, separate shower rooms/toilets. Emptying for WC/greywater and freshwater included.",
+                "prices": ["kr 120,- 1 pers.", "kr. 170,- 1-2 pers.", "kr. 250,- 1-2 pers.", "kr. 250,- 1-2 pers.", "kr. 40 ,-", "kr.  40,- "],
+                "accomodationType": ["Bike and tent: ", "Tent/MC: ", "Tent/car: ", "Caravan: ", "Pr extra person: ", "Electricity 1 day: "],
+                "booking": "Booking: +47 92 06 22 03, +47 92 22 36 98, post@jolvassbu.no"
             } 
         },
         "activities": {
