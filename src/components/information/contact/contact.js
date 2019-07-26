@@ -63,7 +63,7 @@ export default class Contact extends React.Component {
       return (
         <React.Fragment>
             <InfoContainer>
-              <Card className="cardContainer">
+              <Card className="contactCardContainer">
                 <CardMedia>
                   <ContactImg src={contact} />
                 </CardMedia>

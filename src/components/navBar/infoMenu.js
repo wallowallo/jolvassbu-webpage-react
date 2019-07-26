@@ -29,7 +29,12 @@ export default function InfoMenu() {
     function navigateToContact() {
       navigate('/contact');
       setAnchorEl(null);
-  }
+    }
+
+    function navigateToJølster() {
+      navigate('/jolster');
+      setAnchorEl(null);
+    }
   
     function handleClose() {
       setAnchorEl(null);
@@ -47,7 +52,7 @@ export default function InfoMenu() {
           open={Boolean(anchorEl)}
           onClose={handleClose}
         >
-          <MenuItem onClick={handleClose}>Jølster</MenuItem>
+          <MenuItem onClick={navigateToJølster}>Jølster</MenuItem>
           <MenuItem onClick={navigateToMap}>Map</MenuItem>
           <MenuItem onClick={navigateToContact}>Contact us</MenuItem>
         </Menu>

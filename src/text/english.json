@@ -103,9 +103,38 @@
         },
         "information": {
             "header": "Information",
-            "links": ["Jølvassbu news", "Jølster", "Map", "Contact"],
+            "links": ["Jølster", "Map", "Contact"],
             "contact": {
                 "header": "Contact us"
+            },
+            "jølster": {
+                "header": "JØLSTER, SUNNFJORD AND SUROUNDING AREAS",
+                "links": [
+                    "https://www.sfk.museum.no/nn/node/38",
+                    "https://www.sfk.museum.no/nn/node/37",
+                    "https://jolstramuseet.no/",
+                    "https://www.gurusoft.no/",
+                    "https://www.sunnfjord.museum.no/"
+                ],
+                "descriptions": [
+                    "the home of the famous artist Nikolai Astrup, located at Sandal at the southside of the lake Jølstravatnet.",
+                    "located at Ålhus at the northside of th lake Jølstravatnet.",
+                    "located at Vassenden across the river from Jølvassbu.",
+                    "souvenir shop/Christmas shop located at Skei.",
+                    "10 km in the direction of Førde."
+                ],
+                "names": [
+                    "Astruptunet",
+                    "Eikåsgalleriet",
+                    "Jølstramuseet",
+                    "Audhild Vikens Vevstove",
+                    "Sunnfjord Museum"
+                ],
+                "specialLink": {
+                    "name": "Destinations Sunnfjord",
+                    "link": "https://www.sognefjord.no/sunnfjord/",
+                    "description": "If you like more information, it's a pleasure for us at Jølvassbu to help you. You can bike up to Astruptunet, and others, and you can rent the bike from us. More informations from Jølster, Sunnfjord and county:"
+                }
             }
         }
     }

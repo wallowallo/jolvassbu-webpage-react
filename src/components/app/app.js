@@ -10,6 +10,7 @@ import CabinCard from '../accommodation/cabin/cabin-cards';
 import Caravans from '../accommodation/caravans/caravans';
 import Map from '../information/map/map';
 import Contact from '../information/contact/contact';
+import Jølster from '../information/jølster/jølster';
 
 const text = require('../../text/english.json')[0].frontPage;
 
@@ -58,6 +59,7 @@ export default class App extends React.Component {
                 <Caravans path="caravans" />
                 <Map path="map"/>
                 <Contact path="contact" />
+                <Jølster path="jolster" />
             </Router>
             
             <Footer />
