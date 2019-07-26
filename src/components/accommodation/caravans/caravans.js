@@ -23,7 +23,7 @@ const InfoContainer = styled.div `
   position: absolute;
   top: 40%;
   width: 100%;
-  height: 75rem;
+  height: 73rem;
   background-color: white;
   border-top: 2px solid lightblue;
   background-image: linear-gradient(lightblue 0%, white 5%);
@@ -83,7 +83,7 @@ export default class Caravans extends React.Component {
       return (
         <React.Fragment>
             <InfoContainer>
-              <Card className="cardContainer">
+              <Card className="caravansCardContainer">
                 <CardMedia>
                   <SliderContainer>
                     <ImageSlider images={caravans}/>

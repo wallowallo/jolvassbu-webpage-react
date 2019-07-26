@@ -1,6 +1,16 @@
 .cardContainer {
     width: 50%;
-    height: 90%;
+    height: 89rem;
     margin: 5rem 25%;
     box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 lightblue !important;
+}
+
+.emailInput {
+    width: 60%;
+    display: block;
+    margin-bottom: 1.5rem !important;
+}
+
+.formButton {
+    background-color: white !important;
 }

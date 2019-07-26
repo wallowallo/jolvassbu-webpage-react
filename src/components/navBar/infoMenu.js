@@ -24,7 +24,12 @@ export default function InfoMenu() {
     function navigateToMap() {
         navigate('/map');
         setAnchorEl(null);
-      }
+    }
+
+    function navigateToContact() {
+      navigate('/contact');
+      setAnchorEl(null);
+  }
   
     function handleClose() {
       setAnchorEl(null);
@@ -42,10 +47,9 @@ export default function InfoMenu() {
           open={Boolean(anchorEl)}
           onClose={handleClose}
         >
-          <MenuItem onClick={handleClose}>Jølster news</MenuItem>
           <MenuItem onClick={handleClose}>Jølster</MenuItem>
           <MenuItem onClick={navigateToMap}>Map</MenuItem>
-          <MenuItem onClick={handleClose}>Contact us</MenuItem>
+          <MenuItem onClick={navigateToContact}>Contact us</MenuItem>
         </Menu>
       </InfoContainer>
     );

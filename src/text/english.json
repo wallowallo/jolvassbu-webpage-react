@@ -4,13 +4,24 @@
             "header": "Welcome to Jølvassbu",
             "headerTitle": "With the river as the nearest neighbor, shoulders can be lowered and the batteries charged. When you're ready for it, you can choose from many activities:",
             "activitiesList": [
-                "Fishing in one of Europe's best trout rivers - Rent a boat for fishing or sightseeing",
+                "Fishing in one of Europe's best trout rivers",
+                "Rent a boat for fishing or sightseeing",
                 "Paddle on Jølstravatnet with kayak, SUP board or canoe",
                 "Experience beautiful nature, in forests and mountains all year round",
-                "Baths in Jølstravatnet.",
+                "Swim in Jølstravatnet",
                 "Bike along Jølstravatnet"
             ],
-            "info": "You have every opportunity for an adventurous holiday. With us you get fishing licenses, hunting cards, fishing equipment for sale / rent, long experience with fishing in the watercourse and we gladly share the knowledge with you. Local tour guide / map / top tour book, rental of boats, kayaks, SUP boards and canoe. Walking distance to supermarket, restaurant, beach, playground and marked hiking trails. Cabins with 3 to 9 beds, with and without bath. Place for campers / caravans and tents. Empty Building. Communal building with showers, toilets, kitchen and laundry, free internet. Open from April and September, otherwise by appointment."
+            "info": [
+                "You have every opportunity for an adventurous holiday here at jølvassbu.", 
+                "Here you get fishing licenses, hunting cards, fishing equipment for sale/rent, we have a lot of experience with angling in the watercourse and we gladly share the knowledge with you.",
+                "Local tour guide/map/top tour book, rental of boats, kayaks, SUP boards and canoe.",
+                "Walking distance to supermarket, restaurant, beach, playground and marked hiking trails.",
+                "Cabins with 3 to 9 beds, with and without bath.",
+                "Place for campers / caravans and tents.",
+                "Waste disposal.",
+                "Communal building with showers, toilets, kitchen and laundry, free internet.",
+                "Open from April to end of September, otherwise by appointment."
+            ]
         },
         "accomodation": {
             "header": "Accomodation",
@@ -92,7 +103,10 @@
         },
         "information": {
             "header": "Information",
-            "links": ["Jølvassbu news", "Jølster", "Map", "Contact"]
+            "links": ["Jølvassbu news", "Jølster", "Map", "Contact"],
+            "contact": {
+                "header": "Contact us"
+            }
         }
     }
 ]

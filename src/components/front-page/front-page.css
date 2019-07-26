@@ -1,6 +1,13 @@
-.cardContainer {
+.frontPageCardContainer {
     width: 50%;
     height: 90%;
     margin: 5rem 25%;
     box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 lightblue !important;
+}
+
+.listPara:last-child {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: darkorchid;
+    font-size: 1.1rem;
 }
