@@ -60,6 +60,15 @@ const LanguageIcon = styled.img `
 `;
 
 export default class Appbar extends React.Component {
+    constructor(props){
+      super(props);
+      this.state = {isEnglish: true};
+
+      this.setLangToEnglish = this.setLangToEnglish.bind(this);
+      this.setLangToNorwegian = this.setLangToNorwegian.bind(this);
+    }
+    setLangToEnglish = () => this.setState({isEnglish: true});
+    setLangToNorwegian = () => this.setState({isEnglish: false});
     render() {
       return (
         <AppBar color="default" className="appBar">
@@ -75,8 +84,8 @@ export default class Appbar extends React.Component {
             </LogoContainer>
             
             <LanguageContainer>
-                <LanguageIcon src={norwegian} />
-                <LanguageIcon src={english} />
+                <LanguageIcon src={norwegian} style={!this.state.isEnglish ? {cursor: 'pointer', borderRadius: '50%', border: '2px solid black'} : {}} onClick={this.setLangToNorwegian} />
+                <LanguageIcon src={english} style={this.state.isEnglish ? {cursor: 'pointer', borderRadius: '50%', border: '2px solid black'} : {}} onClick={this.setLangToEnglish} />
             </LanguageContainer>
           </Toolbar>
         </AppBar>

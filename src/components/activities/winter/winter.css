@@ -1,0 +1,15 @@
+.winterCardContainer {
+    width: 30%;
+    height: 44rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 2px 2px 0 darkorchid, 0 3px 5px 0 darkorchid !important;
+}
+
+.winterCard1 {
+    margin-left: 0;
+}
+
+.winterCard4 {
+    margin-left: 0;
+}

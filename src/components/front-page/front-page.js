@@ -16,7 +16,7 @@ const InfoContainer = styled.div `
   position: absolute;
   top: 40%;
   width: 100%;
-  height: 76rem;
+  height: 88rem;
   background-color: white;
   border-top: 2px solid lightblue;
   background-image: linear-gradient(lightblue 0%, white 5%);
@@ -29,20 +29,21 @@ const HeaderText = styled.h3 `
 `;
 
 const ActivitiesList = styled.li `
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: bold;
   color: darkorchid;
+  margin-bottom: 0.6rem;
 `;
 
 const UList = styled.ul `
   width: 70%;
-  margin-left: 15%;
+  margin-left: 10%;
 `;
 
 const InfoText = styled.p `
   width: 90%;
-  margin: 0.2rem 5%;
-  font-size: 1rem;
+  margin: 0.5rem 5%;
+  font-size: 1.1rem;
 `;
 
 export default class FrontPage extends React.Component {
@@ -59,7 +60,7 @@ export default class FrontPage extends React.Component {
                 <CardContent>
                   <HeaderText>{text.headerTitle}</HeaderText>
                   <UList>
-                    {text.activitiesList.map((activity, i) => <ActivitiesList key={i}>{activity}</ActivitiesList>)}
+                    {text.activitiesList.map((activity, i) => <ActivitiesList className="actvtList" key={i}>{activity}</ActivitiesList>)}
                   </UList>
                   {text.info.map((i, idx) => <InfoText className="listPara" key={idx}>{i}</InfoText>)}
                 </CardContent>

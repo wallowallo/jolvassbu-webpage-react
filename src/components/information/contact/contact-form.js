@@ -3,6 +3,8 @@ import styled from '@emotion/styled';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
+const text = require('../../../text/english.json')[0].information.contact;
+
 const FormContainer = styled.div `
     width: 70%;
     height: 50%;
@@ -43,7 +45,7 @@ export default function EmallForm() {
   
     return (
         <FormContainer>
-            <FormHeader>By email: </FormHeader>
+            <FormHeader>{text.email}</FormHeader>
             <TextField className="emailInput" value={values.email} type="email" autoComplete="email" placeholder="Your@email.here" label="Your email" onChange={handleChange('email')} required/>
             <TextField className="emailInput" value={values.subject} placeholder="Subject"  label="Subject" onChange={handleChange('subject')} required />
             <TextField className="emailInput" value={values.message} multiline placeholder="Message" label="Message" onChange={handleChange('message')} fullWidth variant="outlined" required />

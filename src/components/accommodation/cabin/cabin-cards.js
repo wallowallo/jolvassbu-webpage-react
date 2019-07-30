@@ -28,7 +28,7 @@ const InfoContainer = styled.div `
   position: absolute;
   top: 40%;
   width: 100%;
-  height: 90rem;
+  height: 100rem;
   background-color: white;
   border-top: 2px solid lightblue;
   background-image: linear-gradient(lightblue 0%, white 5%);
@@ -89,6 +89,8 @@ const PriceText = styled.span `
   color: 	#9932CC;
 `;
 
+const isEnglish = true;
+
 const sliders = [persbua, jola, selet, holsabua, orretbu];
 
 export default class CabinCards extends React.Component {
@@ -105,25 +107,33 @@ export default class CabinCards extends React.Component {
                   </CardMedia>
                   <CardContent>
                     <CardContentH2>{cabins[i].header}</CardContentH2>
+
                     <IconsContainer>
                         <IconContainer style={!cabins[i].info.tv ? {display: 'none'} : {}} >
                           <FaTv size="2rem" />
                         </IconContainer>
+
                         <IconContainer style={!cabins[i].info.shower ? {display: 'none'} : {}} >
                           <FaShower size="2rem" />
                         </IconContainer>
+
                         <IconContainer style={!cabins[i].info.toilet ? {display: 'none'} : {}} >
                           <FaToilet size="2rem" />
                         </IconContainer>
+
                         <BedIconContainer>
                           <IconText alt="beds">{cabins[i].info.beds} </IconText> 
                           <FaBed size="2rem" />
                         </BedIconContainer>
+
                     </IconsContainer>
+
                     <CardSpan>{cabins[i].info.text}</CardSpan>
-                    <CardSpan> <strong>Bedrooms: <span>{cabins[i].info.bedrooms}</span></strong></CardSpan>
+                    <CardSpan> <strong>{isEnglish ? 'Bedrooms: ' : 'Soverom: '}<span>{cabins[i].info.bedrooms}</span></strong></CardSpan>
                     <CardSpan  style={!cabins[i].info.floors ? {display: 'none'} : {}}> <strong><span>{cabins[i].info.floors}</span></strong></CardSpan>
+
                     <PriceText>{cabins[i].info.price}</PriceText>
+
                   </CardContent>
                 </Card>
               )}

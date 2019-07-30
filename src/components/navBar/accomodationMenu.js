@@ -6,6 +6,8 @@ import MenuItem from '@material-ui/core/MenuItem';
 import { GiCaravan, GiWoodCabin } from 'react-icons/gi';
 import { navigate } from "@reach/router"
 
+const text = require('../../text/english.json')[0].accomodation;
+
 const AccomodationContainer = styled.div `
   display: inline-block;
   text-align: center;
@@ -35,6 +37,11 @@ export default function AccomodationMenu() {
       navigate('/caravans');
       setAnchorEl(null);
     }
+
+    function navToFacilities() {
+      navigate('/facilities');
+      setAnchorEl(null);
+    }
   
     function handleClose() {
       setAnchorEl(null);
@@ -54,11 +61,17 @@ export default function AccomodationMenu() {
         >
           <MenuItem onClick={navToCabins}>
             <GiWoodCabin size="1.5rem" /> 
-            <ListItemSpan>Cabins</ListItemSpan>
+            <ListItemSpan>{text.links[0]}</ListItemSpan>
           </MenuItem>
+
           <MenuItem onClick={navToCaravans}>
             <GiCaravan size="1.5rem"/>
-            <ListItemSpan>Caravans</ListItemSpan>
+            <ListItemSpan>{text.links[1]}</ListItemSpan>
+          </MenuItem>
+
+          <MenuItem onClick={navToFacilities}>
+            <GiCaravan size="1.5rem"/>
+            <ListItemSpan>{text.links[2]}</ListItemSpan>
           </MenuItem>
         </Menu>
       </AccomodationContainer>

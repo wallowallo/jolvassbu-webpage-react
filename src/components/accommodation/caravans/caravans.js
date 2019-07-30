@@ -23,7 +23,7 @@ const InfoContainer = styled.div `
   position: absolute;
   top: 40%;
   width: 100%;
-  height: 73rem;
+  height: 75rem;
   background-color: white;
   border-top: 2px solid lightblue;
   background-image: linear-gradient(lightblue 0%, white 5%);
@@ -75,6 +75,7 @@ const BookingSpan = styled.span `
   font-size: 1.1rem;
   font-weight: bold;
   text-align: center;
+  color: darkorange;
 `;
 
 

@@ -6,7 +6,7 @@
             "activitiesList": [
                 "Fishing in one of Europe's best trout rivers",
                 "Rent a boat for fishing or sightseeing",
-                "Paddle on Jølstravatnet with kayak, SUP board or canoe",
+                "Paddle on Jølstravatnet with kayak, SUP-board or canoe",
                 "Experience beautiful nature, in forests and mountains all year round",
                 "Swim in Jølstravatnet",
                 "Bike along Jølstravatnet"
@@ -14,7 +14,7 @@
             "info": [
                 "You have every opportunity for an adventurous holiday here at jølvassbu.", 
                 "Here you get fishing licenses, hunting cards, fishing equipment for sale/rent, we have a lot of experience with angling in the watercourse and we gladly share the knowledge with you.",
-                "Local tour guide/map/top tour book, rental of boats, kayaks, SUP boards and canoe.",
+                "Local tour guide/map/top tour book, rental of boats, kayaks, SUP-boards and canoe.",
                 "Walking distance to supermarket, restaurant, beach, playground and marked hiking trails.",
                 "Cabins with 3 to 9 beds, with and without bath.",
                 "Place for campers / caravans and tents.",
@@ -26,6 +26,155 @@
         "accomodation": {
             "header": "Accomodation",
             "links": ["Cabins", "Caravans/camping", "Facilities"],
+            "facilities": {
+                "header": "FACILITIES",
+                "header2": "PRICE LIST:",
+                "camperHeaders": ["Caravan/Campers", "Specifics", "Price"],
+                "cabinHeaders": ["Cabins", "Specifics", "Price"],
+                "rentalHeaders": ["Rental", "Specifics", "Price"],
+                "info": " Service building contains reception, kitchen, 2 bathrooms with 2 separate showers and 2 tolett in remaining, handicap room with toilet and shower, laundry room with washer / dryer, and a small kiosk where you can buy fishing license, soda, ice cream, etc. You can rent fishing equipment, boat / canoe, kayak and we have local maps / tour guides. We also have for sale some of the most common fishing equipment for the watercourse",
+                "campersPriceList": [
+                    {
+                        "name": "Camper/Caravan",
+                        "specifics": "1-2 pers.",
+                        "price": "kr. 250,-"
+                    },
+                    {
+                        "name": "Tent/car",
+                        "specifics": "1-2 pers.",
+                        "price": "kr. 250,-"
+                    },
+                    {
+                        "name": "Tent - MC",
+                        "specifics": "1-2 pers.",
+                        "price": "kr. 170,-"
+                    },
+                    {
+                        "name": "Tent - bike",
+                        "specifics": "1 pers.",
+                        "price": "kr. 120,-"
+                    },
+                    {
+                        "name": "Ekstra pers.",
+                        "specifics": "",
+                        "price": "kr. 40,-"
+                    },
+                    {
+                        "name": "Electricity",
+                        "specifics": "",
+                        "price": "kr. 40,-"
+                    }
+                ],
+                "cabinsPriceList": [
+                    {
+                        "name": "Ørretbu",
+                        "specifics": "1-3 pers.",
+                        "price": "kr. 450,-"
+                    },
+                    {
+                        "name": "Jøla",
+                        "specifics": "1-8 pers.",
+                        "price": "kr. 930,-"
+                    },
+                    {
+                        "name": "Selet",
+                        "specifics": "1-5 pers.",
+                        "price": "kr. 590,-"
+                    },
+                    {
+                        "name": "Elvestova & Persbua",
+                        "specifics": "1-6 pers.",
+                        "price": "kr. 730,-"
+                    },
+                    {
+                        "name": "Holsabua",
+                        "specifics": "1-9 pers.",
+                        "price": "kr. 800,-"
+                    },
+                    {
+                        "name": "Holsabua rooms",
+                        "specifics": "from",
+                        "price": "kr. 350,- to 650.-"
+                    },
+                    {
+                        "name": "Ekstra pers.",
+                        "specifics": "",
+                        "price": "kr. 40,-"
+                    },
+                    {
+                        "name": "Ekstra bed",
+                        "specifics": "",
+                        "price": "kr. 100,-"
+                    },
+                    {
+                        "name": "Bedsheet",
+                        "specifics": "pr. set",
+                        "price": "kr. 100,-"
+                    },
+                    {
+                        "name": "Dryer",
+                        "specifics": "",
+                        "price": "kr. 40,-"
+                    },
+                    {
+                        "name": "Washingmachine",
+                        "specifics": "",
+                        "price": "kr. 40,-"
+                    }
+                ],
+                "rentalPriceList": [
+                    {
+                        "name": "Boat w/motor",
+                        "specifics": "6 hours",
+                        "price": "kr. 400,-"
+                    },
+                    {
+                        "name": "Boat w/ motor",
+                        "specifics": "12 hours",
+                        "price": "kr. 600,-"
+                    },
+                    {
+                        "name": "Boat w/o motor",
+                        "specifics": "6 hours",
+                        "price": "kr. 200,-"
+                    },
+                    {
+                        "name": "Boat w/o motor",
+                        "specifics": "12 hours",
+                        "price": "kr. 400,-"
+                    },
+                    {
+                        "name": "Canoe",
+                        "specifics": "6 hours",
+                        "price": "kr. 200,-"
+                    },
+                    {
+                        "name": "Canoe",
+                        "specifics": "12 hours",
+                        "price": "kr. 400,-"
+                    },
+                    {
+                        "name": "Single kayak",
+                        "specifics": "1 hour",
+                        "price": "kr. 100,-"
+                    },
+                    {
+                        "name": "Tandem kayak",
+                        "specifics": "1 hour",
+                        "price": "kr. 200,-"
+                    },
+                    {
+                        "name": "SUP-board",
+                        "specifics": "1 hour",
+                        "price": "kr. 200,-"
+                    },
+                    {
+                        "name": "Fishing equipment",
+                        "specifics": "2 hours",
+                        "price": "kr. 100,-"
+                    }
+                ]
+            },
             "cabins": [
                 {
                     "header": "PERSBUA AND ELVESTOVA",
@@ -91,7 +240,7 @@
             ],
             "caravan": {
                 "header": "CARAVAN, CAMPING AND TENT",
-                "info": "Jølvassbu is arranged for campers, caravans and tent. Several electrical and water points, servicebuilding with kitchen, laundry, separate shower rooms/toilets. Emptying for WC/greywater and freshwater included.",
+                "info": "Jølvassbu is facilitated for campers, caravans and tent. Several electrical and water points. Servicebuilding with kitchen, laundry, separate shower rooms/toilets. Emptying for WC/grey water and fresh water included.",
                 "prices": ["kr 120,- 1 pers.", "kr. 170,- 1-2 pers.", "kr. 250,- 1-2 pers.", "kr. 250,- 1-2 pers.", "kr. 40 ,-", "kr.  40,- "],
                 "accomodationType": ["Bike and tent: ", "Tent/MC: ", "Tent/car: ", "Caravan: ", "Pr extra person: ", "Electricity 1 day: "],
                 "booking": "Booking: +47 92 06 22 03, +47 92 22 36 98, post@jolvassbu.no"
@@ -99,13 +248,183 @@
         },
         "activities": {
             "header": "Activities",
-            "links": ["Spring and summer", "Autumn and winter"]
+            "links": ["Spring and summer", "Autumn and winter"],
+            "summerList": [
+                {
+                    "header": "FISHING",
+                    "info": "Jølstra and the lake Jølstravatnet are an el dorado for troutfishing. We sell fishing licence and some fishing tackle, you may rent a canoe, fishingtackle or boat at the lake Jølstravatnet. You can fish directly from the riverbank at Jølvassbu Camping. If you are new, we will share the secret with you.",
+                    "link": false,
+                    "items": [
+                        {
+                            "name": "Equipment",
+                            "hours": "2 hrs",
+                            "price": "kr. 100.-"
+                        },
+                        {
+                            "name": "Boat w/ motor",
+                            "hours": "6 hrs",
+                            "price": "kr. 400.-"
+                        },
+                        {
+                            "name": "Boat w/ motor",
+                            "hours": "12 hrs",
+                            "price": "kr. 600.-"
+                        },
+                        {
+                            "name": "Boat w/o motor",
+                            "hours": "6 hrs",
+                            "price": "kr. 200.-"
+                        },
+                        {
+                            "name": "Boat w/o motor",
+                            "hours": "12 hrs",
+                            "price": "kr. 400.-"
+                        }
+                    ]
+                },
+                {
+                    "header": "KAYAKING",
+                    "info": "Go kayaking in the beautiful lake and bring a fishing rod.",
+                    "link": false,
+                    "items": [
+                        {
+                            "name": "Single",
+                            "hours": "1 hr",
+                            "price": "kr. 100.-"
+                        },
+                        {
+                            "name": "Tandem",
+                            "hours": "1 hr",
+                            "price": "kr. 200.-"
+                        },
+                        {
+                            "name": "SUP-board",
+                            "hours": "1 hr",
+                            "price": "kr. 200.-"
+                        },
+                        {
+                            "name": "Canoe",
+                            "hours": "6 hrs",
+                            "price": "kr. 200.-"
+                        },
+                        {
+                            "name": "Canoe",
+                            "hours": "12 hrs",
+                            "price": "kr. 400.-"
+                        }
+                    ]
+                },
+                {
+                    "header": "BIKING",
+                    "info": "At the southside of the lake Jølstravatnet, ca. 20 km from Vassenden to Skei, a quiet area for biking. Kombined with a visit to the museum Astruptunet, a nice trip. Jølvassbu has bikes for rent.",
+                    "link": false
+                },
+                {
+                    "header": "GO SWIMMING",
+                    "info": "At a distance from 100 m you may have a bathe in the lake and the water is warm and nice in the summertime. If you like, you can find your own small cove along the lake.",
+                    "link": false
+                },
+                {
+                    "header": "RAFTING",
+                    "info": "Jølster Rafting offers rafting in the river Stardalselva and the river Jølstra. Paintball, riversurfing a.o. For more information:",
+                    "link": true,
+                    "href": "https://www.jolster-rafting.no/",
+                    "linkName": "Jølster rafting"
+                },
+                {
+                    "header": "HIKING",
+                    "info": "The municipality Jølster has a beautiful, variable natur from wooded hillsides to precipitous mountains with glasier hat. The lake Jølstravatnet is the natural center encircled from small rivers and lakes. Lots of marked hikingtracks, at Jølvassbu we have lokal maps for rent, and we helps you with all information you need. Guide is necessary at the glacier.",
+                    "link": false
+                },
+                {
+                    "header": "GOLF",
+                    "info": "Sunnfjord Golfklubb has a golf course, 9 hole par 70, length 4510 m, at Vassenden.",
+                    "link": true,
+                    "href": "https://www.sunnfjord-golfklubb.no/",
+                    "linkName": "Sunnfjord golf"
+                },
+                {
+                    "header": "JØLSTER MARATHON",
+                    "info": "Check out the jølster marathon to take in the view while breaking a sweat.",
+                    "link": true,
+                    "href": "https://jolster-maraton.no/",
+                    "linkName": "Jølster marathon"
+                },
+                {
+                    "header": "JØLSTER AUREFEST",
+                    "info": "",
+                    "link": true,
+                    "href": "http://jolsteraurefest.no/",
+                    "linkName": "Jølster Aurefest"
+                }
+            ],
+            "winterList": [
+                {
+                    "header": "FISHING",
+                    "info": "At autumn the fishing may be fabulous. When it`s raining, the river grows and the troats are easily biting. The small rivers which run into the lake Jølatravatnet, needs less rain to flow, whereas Jølstra needs at least a couple of days with heavy rain.",
+                    "link": false,
+                    "items": [
+                        {
+                            "name": "Equipment",
+                            "hours": "2 hrs",
+                            "price": "kr. 100.-"
+                        },
+                        {
+                            "name": "Boat w/ motor",
+                            "hours": "6 hrs",
+                            "price": "kr. 400.-"
+                        },
+                        {
+                            "name": "Boat w/ motor",
+                            "hours": "12 hrs",
+                            "price": "kr. 600.-"
+                        },
+                        {
+                            "name": "Boat w/o motor",
+                            "hours": "6 hrs",
+                            "price": "kr. 200.-"
+                        },
+                        {
+                            "name": "Boat w/o motor",
+                            "hours": "12 hrs",
+                            "price": "kr. 400.-"
+                        }
+                    ]
+                },
+                {
+                    "header": "MUSHROOM & BERRY-PICKING",
+                    "info": "Berries are an inexhaustible resource which are sitting and waiting for you to pick them. The general rights makes it legal to pick any berry in the forrest or at the mountains. Blueberry, cowberry, wild raspberry or cloudberry are usually in great numbers in this region.",
+                    "link": false
+                },
+                {
+                    "header": "HIKING",
+                    "info": "The magnificent colors at the mountain are irresistible in september. The air is bright and fresh, and warm it's enough to enjoy lunch by the campfire.",
+                    "link": false
+                },
+                {
+                    "header": "CROSS-COUNTRY SKIING",
+                    "info": "Jølster løypelag offers prepared ski-tracks over to Gjesdalsdalen, and we have cross country tracks with lights for use at night. You also may skiing about 300 m from Jølvassbu over to the ski-tracks.",
+                    "link": true,
+                    "href": "http://www.jolsterskisenter.no/turlyper",
+                    "linkName": "Jølster skiing"
+                },
+                {
+                    "header": "SLALOM SKIING",
+                    "info": "At Jølster Skisenter there are tracks  which suits everyone, from the beginner to the professional who needs a tough challenge.There are more than 4000 m with slopes, and you can choose among 4 lifts, also 2 for children. If you like more information, look at:",
+                    "link": true,
+                    "href": "http://www.jolsterskisenter.no/",
+                    "linkName": "Jølster slalom"
+                }
+            ]
         },
         "information": {
             "header": "Information",
             "links": ["Jølster", "Map", "Contact"],
             "contact": {
-                "header": "Contact us"
+                "header": "Contact us",
+                "facebook":  "By facebook:",
+                "phone": "By phone:",
+                "email": "By email:"
             },
             "jølster": {
                 "header": "JØLSTER, SUNNFJORD AND SUROUNDING AREAS",
