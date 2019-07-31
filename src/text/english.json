@@ -25,7 +25,7 @@
         },
         "accomodation": {
             "header": "Accomodation",
-            "links": ["Cabins", "Caravans/camping", "Facilities & Prices"],
+            "links": ["Cabins", "Caravans & Camping", "Facilities & Prices"],
             "facilities": {
                 "header": "FACILITIES",
                 "header2": "PRICE LIST:",
@@ -248,7 +248,7 @@
         },
         "activities": {
             "header": "Activities",
-            "links": ["Spring and summer", "Autumn and winter"],
+            "links": ["Spring & Summer", "Autumn & Winter"],
             "summerList": [
                 {
                     "header": "FISHING",
