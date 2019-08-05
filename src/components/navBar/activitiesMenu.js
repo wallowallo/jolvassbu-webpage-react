@@ -4,23 +4,15 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import { FaSun, FaRegSnowflake } from 'react-icons/fa';
+import { NavMenuContainer, ListItemSpan } from '../common/styling';
 import { navigate } from "@reach/router"
 
 const text = require('../../text/english.json')[0].activities;
 
 const ActivitiesContainer = styled.div `
-  display: inline-block;
-  text-align: center;
+  ${NavMenuContainer};
   width: 9rem;
-  height: 2.1rem;
-  margin-top: 1rem;
-  border-right: 2px solid grey;
 `;
-
-const ListItemSpan = styled.span `
-  margin-left: 0.5rem;
-`;
-
 
 export default function ActivitiesMenu() {
     const [anchorEl, setAnchorEl] = React.useState(null);

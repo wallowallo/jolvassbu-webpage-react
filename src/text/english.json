@@ -16,7 +16,7 @@
                 "Here you get fishing licenses, hunting cards, fishing equipment for sale/rent, we have a lot of experience with angling in the watercourse and we gladly share the knowledge with you.",
                 "Local tour guide/map/top tour book, rental of boats, kayaks, SUP-boards and canoe.",
                 "Walking distance to supermarket, restaurant, beach, playground and marked hiking trails.",
-                "Cabins with 3 to 9 beds, with and without bath.",
+                "Cabins with 3 to 9 beds, with and without bathrooms.",
                 "Place for campers / caravans and tents.",
                 "Waste disposal.",
                 "Communal building with showers, toilets, kitchen and laundry, free internet.",
@@ -40,7 +40,7 @@
                         "price": "kr. 250,-"
                     },
                     {
-                        "name": "Tent/car",
+                        "name": "Tent - car",
                         "specifics": "1-2 pers.",
                         "price": "kr. 250,-"
                     },
@@ -124,7 +124,7 @@
                 ],
                 "rentalPriceList": [
                     {
-                        "name": "Boat w/motor",
+                        "name": "Boat w/ motor",
                         "specifics": "6 hours",
                         "price": "kr. 400,-"
                     },
@@ -177,7 +177,7 @@
             },
             "cabins": [
                 {
-                    "header": "PERSBUA AND ELVESTOVA",
+                    "header": "PERSBUA & ELVESTOVA",
                     "info": {
                         "text": "The cabins are situated by the river in beautiful surroundings. Livingroom with kitchen area, complete equipment. Both bedrooms are furnished by familybeds. No water/WC/shower inside the cabins.",
                         "beds": "6",
@@ -239,7 +239,7 @@
                 }
             ],
             "caravan": {
-                "header": "CARAVAN, CAMPING AND TENT",
+                "header": "CARAVAN, CAMPING & TENT",
                 "info": "Jølvassbu is facilitated for campers, caravans and tent. Several electrical and water points. Servicebuilding with kitchen, laundry, separate shower rooms/toilets. Emptying for WC/grey water and fresh water included.",
                 "prices": ["kr 120,- 1 pers.", "kr. 170,- 1-2 pers.", "kr. 250,- 1-2 pers.", "kr. 250,- 1-2 pers.", "kr. 40 ,-", "kr.  40,- "],
                 "accomodationType": ["Bike and tent: ", "Tent/MC: ", "Tent/car: ", "Caravan: ", "Pr extra person: ", "Electricity 1 day: "],
@@ -419,15 +419,15 @@
         },
         "information": {
             "header": "Information",
-            "links": ["Jølster", "Map", "Contact"],
+            "links": ["Jølster", "Map", "Contact us"],
             "contact": {
                 "header": "Contact us",
-                "facebook":  "By facebook:",
-                "phone": "By phone:",
-                "email": "By email:"
+                "facebook":  "Facebook:",
+                "phone": "Phone:",
+                "email": "Email:"
             },
             "jølster": {
-                "header": "JØLSTER, SUNNFJORD AND SUROUNDING AREAS",
+                "header": "JØLSTER, SUNNFJORD & SUROUNDING AREAS",
                 "links": [
                     "https://www.sfk.museum.no/nn/node/38",
                     "https://www.sfk.museum.no/nn/node/37",

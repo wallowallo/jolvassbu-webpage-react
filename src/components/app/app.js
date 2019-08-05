@@ -28,7 +28,7 @@ const HeaderGif = styled.video `
 
 const  TextHeaderContainer = styled.div `
   position: absolute;
-  top: 36%;
+  top: 56%;
   width: 80%;
   height: 5rem;
   margin: 0 10%;

@@ -1,16 +1,11 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import map from '../../../images/map1.gif';
-import './map.css';
+import { baseContainerStyling } from '../../common/styling';
 
 const InfoContainer = styled.div `
-  position: absolute;
-  top: 40%;
-  width: 100%;
+  ${baseContainerStyling}
   height: 58rem;
-  background-color: white;
-  border-top: 2px solid lightblue;
-  background-image: linear-gradient(lightblue 0%, white 5%);
 `;
 
 const MapImg = styled.img `

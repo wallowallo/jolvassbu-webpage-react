@@ -1,11 +1,460 @@
 [   
     {
-        "intro": {
-            "welcome": "Velkommen til Jølvassbu",
-            "": ""
+        "frontPage": {
+            "header": "Velkommen til Jølvassbu",
+            "headerTitle": "Med elva som nærmeste nabo, kan skuldre senkes og batteriene lades. Når du er klar for det, kan du velge mellom mange aktiviteter:",
+            "activitiesList": [
+                "Fiske i et av Europas beste ørretvassdrag",
+                "Leige båt for fiske eller sightseeing",
+                "Padle på Jølstravatnet med kajakk, SUP-brett eller kano",
+                "Oppleve vakker natur, i skog og fjell heile året",
+                "Bade i Jølstravatnet",
+                "Sykkle langs Jølstravatnet"
+            ],
+            "info": [
+                "Du har alle muligheter til en opplevelsesrik ferie.", 
+                "Hos oss får du fiskekort, jaktkort, fiskeutstyr for salg/leie, lang erfaring med sportsfiske i vassdraget og vi deler gjerne kunnskapen med deg.",
+                "Lokal turguide/kart/toppturboka, utleie av båter, kajakker, SUP-brett og kano.",
+                "Gangavstand til supermarked, restaurant, badestrand, leikeplass og merkede turløyper.",
+                "Hytter med 3 til 9 sengeplasser, med og uten bad.",
+                "Plasser for bobiler/campingvogner og telt",
+                "Tømmeanlegg",
+                "Fellesbygg med dusjer, toaletter, kjøkken og vaskerom, gratis internett.",
+                "Åpent fra april og ut september, ellers etter avtale."
+            ]
         },
-        "headers": {
-            "": ""
+        "accomodation": {
+            "header": "Overnatting",
+            "links": ["Hytter", "Bobil & Telt", "Fasiliteter & Priser"],
+            "facilities": {
+                "header": "OVERNATTING",
+                "header2": "PRIS LISTE:",
+                "camperHeaders": ["Bobil/Camping", "spesifikasjoner", "Pris"],
+                "cabinHeaders": ["Hytter", "Spesifikasjoner", "Pris"],
+                "rentalHeaders": ["Leie", "Spesifikasjoner", "Pris"],
+                "info": " Service building contains reception, kitchen, 2 bathrooms with 2 separate showers and 2 tolett in remaining, handicap room with toilet and shower, laundry room with washer / dryer, and a small kiosk where you can buy fishing license, soda, ice cream, etc. You can rent fishing equipment, boat / canoe, kayak and we have local maps / tour guides. We also have for sale some of the most common fishing equipment for the watercourse",
+                "campersPriceList": [
+                    {
+                        "name": "Bobil/Caravan",
+                        "specifics": "1-2 pers.",
+                        "price": "kr. 250,-"
+                    },
+                    {
+                        "name": "Telt - bil",
+                        "specifics": "1-2 pers.",
+                        "price": "kr. 250,-"
+                    },
+                    {
+                        "name": "Telt - MC",
+                        "specifics": "1-2 pers.",
+                        "price": "kr. 170,-"
+                    },
+                    {
+                        "name": "Telt - sykkel",
+                        "specifics": "1 pers.",
+                        "price": "kr. 120,-"
+                    },
+                    {
+                        "name": "Ekstra pers.",
+                        "specifics": "",
+                        "price": "kr. 40,-"
+                    },
+                    {
+                        "name": "Strøm",
+                        "specifics": "",
+                        "price": "kr. 40,-"
+                    }
+                ],
+                "cabinsPriceList": [
+                    {
+                        "name": "Ørretbu",
+                        "specifics": "1-3 pers.",
+                        "price": "kr. 450,-"
+                    },
+                    {
+                        "name": "Jøla",
+                        "specifics": "1-8 pers.",
+                        "price": "kr. 930,-"
+                    },
+                    {
+                        "name": "Selet",
+                        "specifics": "1-5 pers.",
+                        "price": "kr. 590,-"
+                    },
+                    {
+                        "name": "Elvestova & Persbua",
+                        "specifics": "1-6 pers.",
+                        "price": "kr. 730,-"
+                    },
+                    {
+                        "name": "Holsabua",
+                        "specifics": "1-9 pers.",
+                        "price": "kr. 800,-"
+                    },
+                    {
+                        "name": "Holsabua rooms",
+                        "specifics": "from",
+                        "price": "kr. 350,- to 650.-"
+                    },
+                    {
+                        "name": "Ekstra pers.",
+                        "specifics": "",
+                        "price": "kr. 40,-"
+                    },
+                    {
+                        "name": "Ekstra seng",
+                        "specifics": "",
+                        "price": "kr. 100,-"
+                    },
+                    {
+                        "name": "Sengetøy",
+                        "specifics": "pr. set",
+                        "price": "kr. 100,-"
+                    },
+                    {
+                        "name": "Tørketrommel",
+                        "specifics": "",
+                        "price": "kr. 40,-"
+                    },
+                    {
+                        "name": "Vaskemaskin",
+                        "specifics": "",
+                        "price": "kr. 40,-"
+                    }
+                ],
+                "rentalPriceList": [
+                    {
+                        "name": "Båt m/ motor",
+                        "specifics": "6 hours",
+                        "price": "kr. 400,-"
+                    },
+                    {
+                        "name": "Båt m/ motor",
+                        "specifics": "12 hours",
+                        "price": "kr. 600,-"
+                    },
+                    {
+                        "name": "Båt u/ motor",
+                        "specifics": "6 timer",
+                        "price": "kr. 200,-"
+                    },
+                    {
+                        "name": "Båt /u motor",
+                        "specifics": "12 timer",
+                        "price": "kr. 400,-"
+                    },
+                    {
+                        "name": "Kano",
+                        "specifics": "6 timer",
+                        "price": "kr. 200,-"
+                    },
+                    {
+                        "name": "Kano",
+                        "specifics": "12 timer",
+                        "price": "kr. 400,-"
+                    },
+                    {
+                        "name": "Single kajakk",
+                        "specifics": "1 time",
+                        "price": "kr. 100,-"
+                    },
+                    {
+                        "name": "Tandem kajakk",
+                        "specifics": "1 time",
+                        "price": "kr. 200,-"
+                    },
+                    {
+                        "name": "SUP-brett",
+                        "specifics": "1 time",
+                        "price": "kr. 200,-"
+                    },
+                    {
+                        "name": "Fiske utstyr",
+                        "specifics": "2 timer",
+                        "price": "kr. 100,-"
+                    }
+                ]
+            },
+            "cabins": [
+                {
+                    "header": "PERSBUA & ELVESTOVA",
+                    "info": {
+                        "text": "2 like hytter med stove, kjøkkenkrok, kjøleskap, kokemuligheter og nødvendig utstyr. Ligger flott til ved Jølstra. Alle soveromma er utstyrt med familiekøyer, dyner og puter. Ikke innlagt vann, wc/dusj",
+                        "beds": "6",
+                        "tv": true,
+                        "shower": false,
+                        "toilet": false,
+                        "bedrooms": "2",
+                        "price": "kr. 730.-"
+                    }
+                },
+                {
+                    "header": "JØLA",
+                    "info": {
+                        "text": "Nyoppussa hytte med innlagt vann, kjøkken, dusj og toalett. Stue og kjøkkenkrok med komfyr, kjøleskap, vannkoker, kaffetrakter og alt nødvendig utstyr. 2 soverom utstyrt med familiekøyer til 5(8) personer, dyner og puter. I stua er det bondebrisk til 2 personer. Ligg flott til ved elva med terrasse og utemøbler.",
+                        "beds": "6(8)",
+                        "tv": true,
+                        "shower": true,
+                        "toilet": true,
+                        "bedrooms": " 2",
+                        "price": "kr. 930.-"
+                    }
+                },
+                {
+                    "header": "SELET",
+                    "info": {
+                        "text": "Selet har to rom, det eine med kjøkkenutstyr, kjøleskap og kokemuligheter. Selet har same byggestil som Holsabua, har familiekøye og sovesofa. Ligger flott til ved Jølstra. Ikkje innlagt vatn, wc/dusj.",
+                        "beds": "5",
+                        "tv": false,
+                        "shower": false,
+                        "toilet": false,
+                        "bedrooms": "1",
+                        "price": "kr. 590.-"
+                    }
+                },
+                {
+                    "header": "HOLSABUA",
+                    "info": {
+                        "text": "Holsabua er frå ca. 1850. Bygd i gamal Vestlandsstil i 2 etasjer med laft innvendig og kledning på reisverk utvendig. Oppgradert i 2008 og 2014. Inndelt i 3 rom og svalgang/entre. Kjøkken/stove m/hybelkomfyr, kjøleskap og salonggruppe. De andre rommene har sengeplassar. Ligger flott til ved Jølstra og har terrasse. Ikkje innlagt vatn, wc/dusj.",
+                        "beds": "7/9",
+                        "tv": true,
+                        "shower": false,
+                        "toilet": false,
+                        "bedrooms": "2/3",
+                        "floors": "Floors: 2",
+                        "price": "kr. 800.-"
+                    }
+                },
+                {
+                    "header": "ØRRETBU",
+                    "info": {
+                        "text": "Ny liten halvtønne med dobbeltseng og lite oppholdsrom. Plass til 2 (3) personer.",
+                        "beds": "2/3",
+                        "tv": false,
+                        "shower": false,
+                        "toilet": false,
+                        "bedrooms": "1",
+                        "price": "kr. 450.-"
+                    }
+                }
+            ],
+            "caravan": {
+                "header": "BOBIL, CAMPING & TELT",
+                "info": "Jølvassbu Camping er tilrettelagt for bubil/campingvogn og telt. Vi har tilkoblingspunkt for strøm og servicebygg med vann, kjøkken, vaskerom og WC/dusj/handicap-WC/dusj. Vi har tømmeanlegg for WC/gråvann inkludert i døgnleien.",
+                "prices": ["kr 120,- 1 pers.", "kr. 170,- 1-2 pers.", "kr. 250,- 1-2 pers.", "kr. 250,- 1-2 pers.", "kr. 40 ,-", "kr.  40,- "],
+                "accomodationType": ["Telt - sykkel: ", "Telt - MC: ", "Telt - bil: ", "Bobil: ", "Pr extra person: ", "Strøm pr. døgn: "],
+                "booking": "Booking: +47 92 06 22 03, +47 92 22 36 98, post@jolvassbu.no"
+            } 
+        },
+        "activities": {
+            "header": "Activities",
+            "links": ["Vår & Sommer", "Høst & Vinter"],
+            "summerList": [
+                {
+                    "header": "FISKE",
+                    "info": "Jølstravassdraget er eit eldorado for ørretfiske, eit av dei beste i Europa. Hovedvassdraget er 50 km langt og har god plass til alle som vil fiske. Her er ørret i halvkilosklassen daglegdags, og kvar einaste sesong vert det teke ørret på fleire kilo. Vi sel fiskeutstyr, fiskekort, leiger ut fiskeutstyr og båter i Jølstravatnet. Treng du litt opplæring i fiske, valg av rett fiskeutstyr eller valg av fiskeplass, vil vi sjølvsagt vise deg.",
+                    "link": false,
+                    "items": [
+                        {
+                            "name": "Utstyr",
+                            "hours": "2 timer",
+                            "price": "kr. 100.-"
+                        },
+                        {
+                            "name": "Båt m/ motor",
+                            "hours": "6 timer",
+                            "price": "kr. 400.-"
+                        },
+                        {
+                            "name": "Båt m/ motor",
+                            "hours": "12 timer",
+                            "price": "kr. 600.-"
+                        },
+                        {
+                            "name": "Båt u/ motor",
+                            "hours": "6 timer",
+                            "price": "kr. 200.-"
+                        },
+                        {
+                            "name": "Båt u/ motor",
+                            "hours": "12 timer",
+                            "price": "kr. 400.-"
+                        }
+                    ]
+                },
+                {
+                    "header": "KAJAKK",
+                    "info": "Go´Kajakk i Førde har inngått samarbeid med reiselivsaktørar i fylket for å gje eit nytt tilbod for alle som vil prøve seg i kajakk på ein trygg måte, og ikkje minst i vakker natur.Kajakkane er ein hybrid mellom kajakk og kano, og er stødige og lette, og sjansane for å velte er minimal om ein ikkje er ute etter å velte sjølv. Dei skal derimot ikkje nyttast i elv eller på ope hav, då dei lett kan fyllast med vatn. Jølvassbu har to baser med kajakkar som kan leigast for ein rimeleg pris. Godt instruksjonsmateriell og flytevester fylgjer ved leige.",
+                    "link": false,
+                    "items": [
+                        {
+                            "name": "Single",
+                            "hours": "1 time",
+                            "price": "kr. 100.-"
+                        },
+                        {
+                            "name": "Tandem",
+                            "hours": "1 time",
+                            "price": "kr. 200.-"
+                        },
+                        {
+                            "name": "SUP-brett",
+                            "hours": "1 time",
+                            "price": "kr. 200.-"
+                        },
+                        {
+                            "name": "Kano",
+                            "hours": "6 timer",
+                            "price": "kr. 200.-"
+                        },
+                        {
+                            "name": "Kano",
+                            "hours": "12 timer",
+                            "price": "kr. 400.-"
+                        }
+                    ]
+                },
+                {
+                    "header": "SYKKLING",
+                    "info": "Sørsida av Jølstravatnet, ca. 20 km frå Vassenden til Skei, er eit roleg område å sykle i. Kombinert med eit besøk på Astruptunet er dette ein flott tur. Jølvassbu har for tida 4 syklar for utleige.( 2 voksne og 2 for barn)",
+                    "link": false
+                },
+                {
+                    "header": "BADING",
+                    "info": "100 m frå Jølvassbu Camping ligg ei flott sandstrand, lett å få seg ein svalande dukkert på varme sommerdagar. Stranda er langgrunn og svært barnevennleg.",
+                    "link": false
+                },
+                {
+                    "header": "RAFTING",
+                    "info": "Jølster Rafting tilbyr rafting i Stardalselva og Jølstra. Dei har også tilbud om paintball, rapperlering, elvebrett m.m. Sjå meir informasjon på Jølster Rafting si eiga heimeside:",
+                    "link": true,
+                    "href": "https://www.jolster-rafting.no/",
+                    "linkName": "Jølster rafting"
+                },
+                {
+                    "header": "FJELL- OG TURSTIAR",
+                    "info": "The municipality Jølster has a beautiful, variable natur from wooded hillsides to precipitous mountains with glasier hat. The lake Jølstravatnet is the natural center encircled from small rivers and lakes. Lots of marked hikingtracks, at Jølvassbu we have lokal maps for rent, and we helps you with all information you need. Guide is necessary at the glacier.",
+                    "link": false
+                },
+                {
+                    "header": "GOLF",
+                    "info": "Sunnfjord Golfklubb si golfbane med 9 hol par 70, lengde 4510 m, ligg på Vassenden. Meir informasjon om Sunnfjord Golfklubb finn du på deira eiga heimside:",
+                    "link": true,
+                    "href": "https://www.sunnfjord-golfklubb.no/",
+                    "linkName": "Sunnfjord golf"
+                },
+                {
+                    "header": "JØLSTER MARATHON",
+                    "info": "Årvisst maraton rundt Jølstravatnet. Med masse deltakare frå inn- og utland. Påmelding finn du på:",
+                    "link": true,
+                    "href": "https://jolster-maraton.no/",
+                    "linkName": "Jølster marathon"
+                },
+                {
+                    "header": "JØLSTER AUREFEST",
+                    "info": "Jølstravatnet er legendarisk for sitt ørretfiske, og blir rekna som det beste ørretvatnet i Europa .Sportsfiskere fra hele landet og fra utlandet kommer på besøk for å oppleve fiske. Fiskekortsalget har økt jevnt de siste årene og det er et betydelig næringsfiske i vatnet. Jølster Aurefest er en god anledning til å ta del i spenningen.  Nær 1200 fiskere deltar hvert år, der hovedpremien er en Volvo. ",
+                    "link": true,
+                    "href": "http://jolsteraurefest.no/",
+                    "linkName": "Jølster Aurefest"
+                }
+            ],
+            "winterList": [
+                {
+                    "header": "FISKE",
+                    "info": "Om høsten kan fisket vere eventyrleg. Når elvane veks er ørreten svært bitevillig. Dei små elvane som renn inn i Jølatravatnet er først ute, dei treng mindre nedbør for å bli flaumstore, medan Jølstra gjerne treng eit par dagar for å reagere særleg på nedbøren. Dersom ein er heldig, kan fisket vere fantastisk.",
+                    "link": false,
+                    "items": [
+                        {
+                            "name": "Utstyr",
+                            "hours": "2 timer",
+                            "price": "kr. 100.-"
+                        },
+                        {
+                            "name": "Båt m/ motor",
+                            "hours": "6 timer",
+                            "price": "kr. 400.-"
+                        },
+                        {
+                            "name": "Båt m/ motor",
+                            "hours": "12 timer",
+                            "price": "kr. 600.-"
+                        },
+                        {
+                            "name": "Båt u/ motor",
+                            "hours": "6 timer",
+                            "price": "kr. 200.-"
+                        },
+                        {
+                            "name": "Båt u/ motor",
+                            "hours": "12 timer",
+                            "price": "kr. 400.-"
+                        }
+                    ]
+                },
+                {
+                    "header": "BÆR- OG SOPPLUKKING",
+                    "info": "Bær og sopp er ein unytta resurs som står og ventar på deg. Blåbær, tyttebær, krekling, ville bringebær og molter er vanlege bærtypar i denne regionen. Kantarell, piggsopp og steinsopp er også å finne i gangavstand frå Jølvassbu.",
+                    "link": false
+                },
+                {
+                    "header": "VANDRING",
+                    "info": "I september er fargeprakta i fjellet uimotståeleg. Lufta er klar og frisk og sola har kraft nok til å varme ein vandrer ved lunsjbålet. Turguiden i Jølster har 17 turer, frå heilt lette til krevande turar.",
+                    "link": false
+                },
+                {
+                    "header": "LANGRENN",
+                    "info": "Jølster Løypelag har 20 km preparerte turløyper inn til Gjesdalsdalen og har lysløype for langrenn. Ein kan gå på ski frå Jølvassbu til skiløya/lysløypa, ca. 300m.",
+                    "link": true,
+                    "href": "http://www.jolsterskisenter.no/turlyper",
+                    "linkName": "Jølster løypelag"
+                },
+                {
+                    "header": "SLALÅM",
+                    "info": "Jølster Skisenter tilbyr alpine løyper som passar alle, frå den heilt ferske nybegynnar til den røynde alpinist som krev tøffe utfordringar. Samla lengde nedfartar er over 4000 m. Ein kan velge mellom 4 heisar, skitrekka Kvamsheisen og Bjørkeliaheisen samt barnetrekket Uglumheisen og familiebakken med Bjørneheisen. Normalt er det mye snø på Vestlandet og ofte flotte off piste - forhold. Vi har rabatter på heiskort i skisenteret. Meir informasjon sjå deira eiga heimeside:",
+                    "link": true,
+                    "href": "http://www.jolsterskisenter.no/",
+                    "linkName": "Jølster skisenter"
+                }
+            ]
+        },
+        "information": {
+            "header": "Informasjon",
+            "links": ["Jølster", "Kart", "Kontakt oss"],
+            "contact": {
+                "header": "Kontakt oss",
+                "facebook": "Facebook:",
+                "phone": "Telefon:",
+                "email": "E-post:"
+            },
+            "jølster": {
+                "header": "JØLSTER",
+                "links": [
+                    "https://www.sfk.museum.no/nn/node/38",
+                    "https://www.sfk.museum.no/nn/node/37",
+                    "https://jolstramuseet.no/",
+                    "https://www.gurusoft.no/",
+                    "https://www.sunnfjord.museum.no/"
+                ],
+                "descriptions": [
+                    "Sandalstrand, eller Astruptunet som det vert kalla i dag, ligg vel ei mil frå Vassenden og omlag 15 km frå Skei på sørsida av Jølstravatnet. Nikolai Astrup kjøpte denne gamle husmannsplassen i 1913. Året etter flytta han inn i dei gamle husa saman med familien og budde der til han døde i 1928. Her bygde han seg ein ny heim. På det vesle gardsbruket kunne Astrup dyrke mat til eige bruk, og han la ned mykje arbeid i hagen. Mange av desse situasjonane skildrar han i bileta sine, t.d. Rabarbra og småpike på Sandalstrand (1927) og Epletre i blomst (1927). Sandalstrand er på sett og vis ei spegling av kunsten og tankane hans.",
+                    "Galleriet vart skipa i 1994 og konsolidert med Sogn og Fjordane Kunstmuseum i 2004. Det gamle meieriet på Ålhus vart kjøpt og bygd om til eit moderne kunstgalleri, etter teikningar av arkitekt Arild Waage, for å ta imot kunstsamlinga Ludvig Eikaas gav kommunen. Galleriet ligg på Ålhus langs E39, ved Jølstravatnet, med eiga badestrand og tilgjenge for rullestolbrukarar. Sal av grafikk, kort, bøker og anna. Kafé med enkel servering inne og ute. Samlinga vart donert til Jølster kommune av Ludvig Eikaas. Den omfattar no over 850 verk i ulike teknikkar; grafikk, maleri, skulptur, trykkplater, collage, readymade mm.",
+                    "ligg på Vassenden rett over for Jølvassbu på andre sida av elva.",
+                    "souvenir shop/Christmas shop located at Skei.",
+                    "Sunnfjord Museum er ein avdeling av Stiftinga Musea i Sogn og Fjordane og regionmuseum for alle kommunane i indre Sunnfjord. Sunnfjord Museum vart, som mange andre av dei norske folkemusea, skipa på byrjinga av 1900-talet. Nasjonsbygginga etter unionstida var nok ei viktig drivkraft i dette arbeidet. I tillegg til dei tilflytta husa, har vi også tatt vare på dei gamle plasshusa."
+                ],
+                "names": [
+                    "Astruptunet",
+                    "Eikåsgalleriet",
+                    "Jølstramuseet",
+                    "Audhild Vikens Vevstove",
+                    "Sunnfjord Museum"
+                ],
+                "specialLink": {
+                    "name": "Destinations Sunnfjord",
+                    "link": "https://www.sognefjord.no/sunnfjord/",
+                    "description": "If you like more information, it's a pleasure for us at Jølvassbu to help you. You can bike up to Astruptunet, and others, and you can rent the bike from us. More informations from Jølster, Sunnfjord and county:"
+                }
+            }
         }
     }
 ]

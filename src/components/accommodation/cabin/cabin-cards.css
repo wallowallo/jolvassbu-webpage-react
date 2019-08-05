@@ -2,7 +2,8 @@
     width: 30%;
     height: 41rem;
     margin-left: 3rem;
-    box-shadow: 0 2px 2px 0 darkorchid, 0 3px 5px 0 darkorchid !important;
+    min-width: 25rem;
+    box-shadow: 0 2px 2px 0 lightblue, 0 3px 5px 0 lightblue !important;
 }
 
 .cabinCard1 {

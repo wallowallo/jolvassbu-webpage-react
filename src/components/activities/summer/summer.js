@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
+import { baseContainerStyling, CardContentH2, SliderContainer, CardContainer } from '../../common/styling';
 import './summer.css';
 
 const text = require('../../../text/english.json')[0].activities;
@@ -23,28 +24,9 @@ const marathon = importAll(require.context('../../../images/marathon', false, /\
 const hiking = importAll(require.context('../../../images/hiking', false, /\.(png|jpe?g|svg)$/));
 const golf = importAll(require.context('../../../images/golf', false, /\.(png|jpe?g|svg)$/));
 
-const SliderContainer = styled.div `
-  width: 100%;
-`;
-
 const InfoContainer = styled.div `
-  position: absolute;
-  top: 40%;
-  width: 100%;
-  height: 165rem;
-  background-color: white;
-  border-top: 2px solid lightblue;
-  background-image: linear-gradient(lightblue 0%, white 5%);
-`;
-
-const CardContainer = styled.div `
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-  margin: 5rem 10%;
-  height: 90%;
+  ${baseContainerStyling};
+  height: 155rem;
 `;
 
 const CardPara = styled.p `
@@ -52,11 +34,6 @@ const CardPara = styled.p `
   display: inline-block;
   margin: 0.5rem 5%;
   font-size: 1.1rem;
-`;
-
-const CardContentH2 = styled.h2 `
-  text-align: center;
-  margin-bottom: 0.5rem;
 `;
 
 const Link = styled.a `

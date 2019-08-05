@@ -4,22 +4,14 @@ import FrontPageSlider from './front-page-slider';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
+import { baseContainerStyling, SliderContainer } from '../common/styling';
 import './front-page.css';
 
 const text = require('../../text/english.json')[0].frontPage;
 
-const SliderContainer = styled.div `
-  width: 100%;
-`;
-
 const InfoContainer = styled.div `
-  position: absolute;
-  top: 40%;
-  width: 100%;
+  ${baseContainerStyling};
   height: 88rem;
-  background-color: white;
-  border-top: 2px solid lightblue;
-  background-image: linear-gradient(lightblue 0%, white 5%);
 `;
 
 const HeaderText = styled.h3 `

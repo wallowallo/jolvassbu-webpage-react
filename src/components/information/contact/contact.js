@@ -5,6 +5,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import contact from '../../../images/contact1.jpg';
 import EmailForm from './contact-form';
+import { baseContainerStyling, CardContentH2 } from '../../common/styling';
 import './contact.css';
 
 const text = require('../../../text/english.json')[0].information.contact;
@@ -14,26 +15,14 @@ const ContactImg = styled.img `
 `;
 
 const InfoContainer = styled.div `
-  position: absolute;
-  top: 40%;
-  width: 100%;
+  ${baseContainerStyling};
   height: 100rem;
-  background-color: white;
-  border-top: 2px solid lightblue;
-  background-image: linear-gradient(lightblue 0%, white 5%);
-`;
-
-const CardContentH2 = styled.h2 `
-  text-align: center;
-  margin-bottom: 0.5rem;
-  margin-top: 0;
 `;
 
 const FacebookEmbed = styled.div `
     width: 70%;
     margin-left: 20%;
 `;
-
 
 const FacebookHeader = styled.h3 `
     margin-top: 2rem;
