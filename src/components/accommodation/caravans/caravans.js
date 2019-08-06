@@ -1,11 +1,12 @@
+/** @jsx jsx */
+import { jsx, css } from "@emotion/core";
 import React from 'react';
 import styled from '@emotion/styled';
 import ImageSlider from '../../image-slider/image-slider';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import { baseContainerStyling, CardContentH2, SliderContainer } from '../../common/styling';
-import './caravans.css';
+import { InfoContainer, CardContentH2, SliderContainer, commonLargeCardStyling } from '../../common/styling';
 
 function importAll(r) {
     return r.keys().map(r);
@@ -16,9 +17,8 @@ const caravans = importAll(require.context('../../../images/camper', false, /\.(
 
 const text = require('../../../text/english.json')[0].accomodation.caravan;
 
-const InfoContainer = styled.div `
-  ${baseContainerStyling};
-  height: 75rem;
+const caravanCardStyling = css`
+  ${commonLargeCardStyling};
 `;
 
 const CardSpan = styled.span `
@@ -71,7 +71,7 @@ export default class Caravans extends React.Component {
       return (
         <React.Fragment>
             <InfoContainer>
-              <Card className="caravansCardContainer">
+              <Card css={caravanCardStyling}>
                 <CardMedia>
                   <SliderContainer>
                     <ImageSlider images={caravans}/>

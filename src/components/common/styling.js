@@ -1,7 +1,7 @@
 import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 
-export const baseContainerStyling = css`
+export const InfoContainer = styled.div `
   position: absolute;
   top: 60%;
   width: 100%;
@@ -24,7 +24,7 @@ export const CardContainer = styled.div `
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 80%;
   margin: 5rem 10%;
   height: 90%;
@@ -40,4 +40,34 @@ export const NavMenuContainer = css`
 
 export const ListItemSpan = styled.span `
   margin-left: 0.5rem;
+`;
+
+export const Image = styled.img `
+  width: 100%;
+`;
+
+export const commonCardStyling = css`
+    width: 30%;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    min-width: 25rem;
+    box-shadow: 0 2px 2px 0 lightblue, 0 3px 5px 0 lightblue !important;
+
+    @media only screen and (min-width: 1620px) {
+        :nth-child(3n+1) {
+            margin-left: 0;
+        }
+`;
+
+export const commonLargeCardStyling = css`
+    width: 50%;
+    margin: 5rem 25%;
+    min-width: 25rem;
+    box-shadow: 0 2px 2px 0 lightblue, 0 3px 5px 0 lightblue !important;
+`;
+
+export const commonFirstAnd3rdStyling = css`
+    :nth-child(3n+1) {
+        margin-left: 0;
+    }
 `;

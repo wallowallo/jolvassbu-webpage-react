@@ -1,21 +1,17 @@
+/** @jsx jsx */
+import { jsx, css } from "@emotion/core";
 import React from 'react';
 import styled from '@emotion/styled';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import jolster from '../../../images/jolster1.jpg';
-import { baseContainerStyling, CardContentH2 } from '../../common/styling';
-import './jolster.css';
+import { InfoContainer, CardContentH2, Image, commonLargeCardStyling } from '../../common/styling';
 
 const text = require('../../../text/english.json')[0].information.jølster;
 
-const JolsterImg = styled.img `
-  width: 100%;
-`;
-
-const InfoContainer = styled.div `
-  ${baseContainerStyling};
-  height: 66rem;
+const jolsterCardStyling = css`
+  ${commonLargeCardStyling};
 `;
 
 const TextParagraph = styled.p `
@@ -44,9 +40,9 @@ export default class Jolster extends React.Component {
       return (
         <React.Fragment>
             <InfoContainer>
-              <Card className="jølsterCardContainer">
+              <Card css={jolsterCardStyling}>
                 <CardMedia>
-                  <JolsterImg src={jolster} />
+                  <Image src={jolster} />
                 </CardMedia>
                 <CardContent>
                     <CardContentH2>{text.header}</CardContentH2>

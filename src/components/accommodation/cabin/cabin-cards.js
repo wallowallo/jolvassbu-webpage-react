@@ -1,3 +1,5 @@
+/** @jsx jsx */
+import { jsx, css } from "@emotion/core";
 import React from 'react';
 import ImageSlider from '../../image-slider/image-slider';
 import styled from '@emotion/styled';
@@ -5,8 +7,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import { FaBed, FaTv, FaShower, FaToilet } from 'react-icons/fa';
-import { baseContainerStyling, CardContentH2, SliderContainer, CardContainer } from '../../common/styling';
-import './cabin-cards.css';
+import { InfoContainer, CardContentH2, SliderContainer, CardContainer, commonCardStyling } from '../../common/styling';
 
 const cabins = require('../../../text/english.json')[0].accomodation.cabins;
 
@@ -21,9 +22,9 @@ const selet = importAll(require.context('../../../images/selet', false, /\.(png|
 const holsabua = importAll(require.context('../../../images/holsabua', false, /\.(png|jpe?g|svg)$/));
 const orretbu = importAll(require.context('../../../images/orretbu', false, /\.(png|jpe?g|svg)$/));
 
-const InfoContainer = styled.div `
-  ${baseContainerStyling};
-  height: 100rem;
+const cabinCardStyling = css`
+  ${commonCardStyling};
+  height: 41rem;
 `;
 
 const CardSpan = styled.span `
@@ -41,6 +42,11 @@ const BedIconContainer = styled.div `
   width: 5rem;
   height: 2.5rem;
   margin-left: 0.5rem;
+  vertical-align: top;
+
+  svg {
+    vertical-align: -0.6rem;
+  }
 `;
 
 const IconContainer = styled.div `
@@ -76,7 +82,7 @@ export default class CabinCards extends React.Component {
         <InfoContainer>
           <CardContainer>
             {sliders.map((slider, i) =>
-                <Card className={`cabinCardContainer cabinCard${i + 1}`} key={i.toString()}>
+                <Card css={cabinCardStyling} key={i.toString()}>
                   <CardMedia>
                     <SliderContainer>
                       <ImageSlider images={slider} imageKey={`slider${i}`}/>

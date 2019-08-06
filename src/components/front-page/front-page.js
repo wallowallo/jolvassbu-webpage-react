@@ -1,17 +1,23 @@
+/** @jsx jsx */
+import { jsx, css } from "@emotion/core";
 import React from 'react';
 import styled from '@emotion/styled';
-import FrontPageSlider from './front-page-slider';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import { baseContainerStyling, SliderContainer } from '../common/styling';
-import './front-page.css';
+import { InfoContainer, SliderContainer, commonLargeCardStyling } from '../common/styling';
+import ImageSlider from '../image-slider/image-slider';
 
 const text = require('../../text/english.json')[0].frontPage;
 
-const InfoContainer = styled.div `
-  ${baseContainerStyling};
-  height: 88rem;
+function importAll(r) {
+  return r.keys().map(r);
+}
+
+const images = importAll(require.context('../../images/frontPageImages', false, /\.(png|jpe?g|svg)$/));
+
+const frontPageCardStyling = css`
+  ${commonLargeCardStyling};
 `;
 
 const HeaderText = styled.h3 `
@@ -25,6 +31,10 @@ const ActivitiesList = styled.li `
   font-weight: bold;
   color: darkorchid;
   margin-bottom: 0.6rem;
+
+  :last-child {
+    margin-bottom: 2rem;
+  }
 `;
 
 const UList = styled.ul `
@@ -36,6 +46,13 @@ const InfoText = styled.p `
   width: 90%;
   margin: 0.5rem 5%;
   font-size: 1.1rem;
+
+  :last-child {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: darkorchid;
+    font-size: 1.1rem;
+  }
 `;
 
 export default class FrontPage extends React.Component {
@@ -43,18 +60,18 @@ export default class FrontPage extends React.Component {
       return (
         <React.Fragment>
             <InfoContainer>
-              <Card className="frontPageCardContainer">
+              <Card css={frontPageCardStyling}>
                 <CardMedia>
                   <SliderContainer>
-                    <FrontPageSlider />
+                    <ImageSlider images={images} />
                   </SliderContainer>
                 </CardMedia>
                 <CardContent>
                   <HeaderText>{text.headerTitle}</HeaderText>
                   <UList>
-                    {text.activitiesList.map((activity, i) => <ActivitiesList className="actvtList" key={i}>{activity}</ActivitiesList>)}
+                    {text.activitiesList.map((activity, i) => <ActivitiesList key={i}>{activity}</ActivitiesList>)}
                   </UList>
-                  {text.info.map((i, idx) => <InfoText className="listPara" key={idx}>{i}</InfoText>)}
+                  {text.info.map((i, idx) => <InfoText key={idx}>{i}</InfoText>)}
                 </CardContent>
               </Card>
             </InfoContainer>

@@ -1,3 +1,5 @@
+/** @jsx jsx */
+import { jsx, css } from "@emotion/core";
 import React from 'react';
 import styled from '@emotion/styled';
 import TextField from '@material-ui/core/TextField';
@@ -17,6 +19,19 @@ const FormHeader = styled.h3 `
     margin-top: 2rem;
     text-decoration: underline;
     margin-bottom: 0;
+`;
+
+const emailInput = css`
+    width: 50%;
+    margin-bottom: 1.5rem;
+`;
+
+const emailTextArea = css`
+    margin-bottom: 1.5rem;
+`;
+
+const emailButton = css`
+    background-color: white;
 `;
 
 var mailgun = require('mailgun.js');
@@ -46,10 +61,10 @@ export default function EmallForm() {
     return (
         <FormContainer>
             <FormHeader>{text.email}</FormHeader>
-            <TextField className="emailInput" value={values.email} type="email" autoComplete="email" placeholder="Your@email.here" label="Your email" onChange={handleChange('email')} required/>
-            <TextField className="emailInput" value={values.subject} placeholder="Subject"  label="Subject" onChange={handleChange('subject')} required />
-            <TextField className="emailInput" value={values.message} multiline placeholder="Message" label="Message" onChange={handleChange('message')} fullWidth variant="outlined" required />
-            <Button className="formButton" variant="contained">Send email</Button>
+            <TextField css={emailInput} value={values.email} type="email" autoComplete="email" placeholder="Your@email.here" label="Your email" onChange={handleChange('email')} required/>
+            <TextField css={emailInput} value={values.subject} placeholder="Subject"  label="Subject" onChange={handleChange('subject')} required />
+            <TextField css={emailTextArea} value={values.message} multiline placeholder="Message" label="Message" onChange={handleChange('message')} fullWidth variant="outlined" required />
+            <Button css={emailButton} variant="contained">Send email</Button>
         </FormContainer>
     );
   };

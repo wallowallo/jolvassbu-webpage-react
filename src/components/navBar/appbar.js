@@ -7,6 +7,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import { navigate } from "@reach/router"
+import { NavMenuContainer } from '../common/styling';
 import InfoMenu from './infoMenu';
 import ActivitiesMenu from './activitiesMenu';
 import AccomodationMenu from './accomodationMenu';
@@ -32,12 +33,8 @@ const NavContainer = styled.div `
 `;
 
 const HomeContainer = styled.div `
-  display: inline-block;
-  text-align: center;
+  ${NavMenuContainer};
   width: 7rem;
-  height: 2.1rem;
-  margin-top: 1rem;
-  border-right: 2px solid grey;
 `;
 
 const LanguageContainer = styled.div `

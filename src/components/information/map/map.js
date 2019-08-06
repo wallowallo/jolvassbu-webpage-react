@@ -1,12 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import map from '../../../images/map1.gif';
-import { baseContainerStyling } from '../../common/styling';
-
-const InfoContainer = styled.div `
-  ${baseContainerStyling}
-  height: 58rem;
-`;
+import { InfoContainer } from '../../common/styling';
 
 const MapImg = styled.img `
   width: 60%;

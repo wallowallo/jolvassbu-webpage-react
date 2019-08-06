@@ -14,6 +14,7 @@ import Jolster from '../information/jolster/jolster';
 import Summer from '../activities/summer/summer';
 import Winter from '../activities/winter/winter';
 import Facilities from '../accommodation/facilities/facilities';
+import { StylesProvider } from "@material-ui/styles";
 
 const text = require('../../text/english.json')[0].frontPage;
 
@@ -44,32 +45,34 @@ const TextHeader = styled.h1 `
 export default class App extends React.Component {
   render() {
       return (
-        <React.Fragment>
-            <CssBaseline />
-            <Appbar />
+        <StylesProvider injectFirst>
+            <React.Fragment>
+              <CssBaseline />
+              <Appbar />
 
-            <HeaderGifContainer>
-                <HeaderGif src={riverGif} type='video/webm;codecs="vp8, vorbis"' autoPlay loop></HeaderGif>
-            </HeaderGifContainer>
+              <HeaderGifContainer>
+                  <HeaderGif src={riverGif} type='video/webm;codecs="vp8, vorbis"' autoPlay loop></HeaderGif>
+              </HeaderGifContainer>
 
-            <TextHeaderContainer>
-                <TextHeader>{text.header}</TextHeader>
-            </TextHeaderContainer>
+              <TextHeaderContainer>
+                  <TextHeader>{text.header}</TextHeader>
+              </TextHeaderContainer>
 
-            <Router>
-                <FrontPage path="/" />
-                <CabinCard path="cabins" />
-                <Caravans path="caravans" />
-                <Map path="map"/>
-                <Contact path="contact" />
-                <Jolster path="jolster" />
-                <Summer path="summer" />
-                <Winter path="winter" />
-                <Facilities path="facilities" />
-            </Router>
-            
-            <Footer />
-        </React.Fragment>
+              <Router>
+                  <FrontPage path="/" />
+                  <CabinCard path="cabins" />
+                  <Caravans path="caravans" />
+                  <Map path="map"/>
+                  <Contact path="contact" />
+                  <Jolster path="jolster" />
+                  <Summer path="summer" />
+                  <Winter path="winter" />
+                  <Facilities path="facilities" />
+              </Router>
+              
+              <Footer />
+            </React.Fragment>
+        </StylesProvider>
       );
   }
 }

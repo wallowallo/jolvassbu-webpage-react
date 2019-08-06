@@ -1,3 +1,5 @@
+/** @jsx jsx */
+import { jsx, css } from "@emotion/core";
 import React from 'react';
 import styled from '@emotion/styled';
 import Card from '@material-ui/core/Card';
@@ -5,18 +7,12 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import contact from '../../../images/contact1.jpg';
 import EmailForm from './contact-form';
-import { baseContainerStyling, CardContentH2 } from '../../common/styling';
-import './contact.css';
+import { InfoContainer, CardContentH2, Image, commonLargeCardStyling } from '../../common/styling';
 
 const text = require('../../../text/english.json')[0].information.contact;
 
-const ContactImg = styled.img `
-  width: 100%;
-`;
-
-const InfoContainer = styled.div `
-  ${baseContainerStyling};
-  height: 100rem;
+const contactCardStyling = css`
+  ${commonLargeCardStyling};
 `;
 
 const FacebookEmbed = styled.div `
@@ -52,9 +48,9 @@ export default class Contact extends React.Component {
       return (
         <React.Fragment>
             <InfoContainer>
-              <Card className="contactCardContainer">
+              <Card css={contactCardStyling}>
                 <CardMedia>
-                  <ContactImg src={contact} />
+                  <Image src={contact} />
                 </CardMedia>
                 <CardContent>
                     <CardContentH2>{text.header}</CardContentH2>

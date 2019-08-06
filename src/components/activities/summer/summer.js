@@ -1,11 +1,12 @@
+/** @jsx jsx */
+import { jsx, css } from "@emotion/core";
 import React from 'react';
 import ImageSlider from '../../image-slider/image-slider';
 import styled from '@emotion/styled';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import { baseContainerStyling, CardContentH2, SliderContainer, CardContainer } from '../../common/styling';
-import './summer.css';
+import { InfoContainer, CardContentH2, SliderContainer, CardContainer, commonCardStyling, commonFirstAnd3rdStyling } from '../../common/styling';
 
 const text = require('../../../text/english.json')[0].activities;
 
@@ -24,9 +25,9 @@ const marathon = importAll(require.context('../../../images/marathon', false, /\
 const hiking = importAll(require.context('../../../images/hiking', false, /\.(png|jpe?g|svg)$/));
 const golf = importAll(require.context('../../../images/golf', false, /\.(png|jpe?g|svg)$/));
 
-const InfoContainer = styled.div `
-  ${baseContainerStyling};
-  height: 155rem;
+const summerCardStyling = css`
+  ${commonCardStyling};
+  height: 46rem;
 `;
 
 const CardPara = styled.p `
@@ -74,7 +75,7 @@ export default class Summer extends React.Component {
         <InfoContainer>
           <CardContainer>
             {sliders.map((slider, i) =>
-                <Card className={`summerCardContainer summerCard${i + 1}`} key={i.toString()}>
+                <Card css={summerCardStyling} key={i.toString()}>
                   <CardMedia>
                     <SliderContainer>
                       <ImageSlider images={slider} imageKey={`slider${i}`}/>
