@@ -10,11 +10,11 @@ export const InfoContainer = styled.div `
     background-image: linear-gradient(lightblue 0%, white 5%);
 
     @media only screen and (max-width: 1000px) {
-        top: 35%;
+        top: 45%;
     }
 
     @media only screen and (max-width: 800px) {
-        top: 30%;
+        top: 35%;
     }
 
     @media only screen and (max-width: 600px) {
@@ -85,7 +85,11 @@ export const commonCardStyling = css`
 export const commonLargeCardStyling = css`
     width: 50%;
     margin: 5rem 25%;
-    min-width: 25rem;
+    min-width: 27rem;
     box-shadow: 0 2px 2px 0 lightblue, 0 3px 5px 0 lightblue !important;
+
+    @media only screen and (max-width: 1000px) {
+        margin: 5rem auto;
+    }
 `;
 

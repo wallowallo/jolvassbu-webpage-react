@@ -38,11 +38,11 @@ const  TextHeaderContainer = styled.div `
   border: 2px solid lightblue;
 
   @media only screen and (max-width: 1000px) {
-    top: 31%;
+    top: 41%;
   }
 
   @media only screen and (max-width: 800px) {
-    top: 26%;
+    top: 31%;
   }
 
   @media only screen and (max-width: 600px) {
