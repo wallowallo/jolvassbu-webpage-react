@@ -36,6 +36,18 @@ const  TextHeaderContainer = styled.div `
   background-color: white;
   z-index: 999;
   border: 2px solid lightblue;
+
+  @media only screen and (max-width: 1000px) {
+    top: 31%;
+  }
+
+  @media only screen and (max-width: 800px) {
+    top: 26%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    top: 21%;
+  }
 `;
 
 const TextHeader = styled.h1 `

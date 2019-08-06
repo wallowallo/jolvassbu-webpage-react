@@ -6,7 +6,7 @@ import styled from '@emotion/styled';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import { InfoContainer, CardContentH2, SliderContainer, CardContainer, commonCardStyling, commonFirstAnd3rdStyling } from '../../common/styling';
+import { InfoContainer, CardContentH2, SliderContainer, CardContainer, commonCardStyling } from '../../common/styling';
 
 const text = require('../../../text/english.json')[0].activities;
 
